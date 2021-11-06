@@ -1,0 +1,21 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      DOCKERHUB_USERNAME: "blairnangle"
+      IMAGE_NAME: "$DOCKERHUB_USERNAME/python3-numpy-ta-lib"
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build image
+        run: docker build .
