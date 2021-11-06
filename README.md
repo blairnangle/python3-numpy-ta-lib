@@ -32,3 +32,7 @@ release.
 ## Inspiration
 
 [docker-python-talib](https://github.com/otassel/docker-python-talib) by [Olivier Tassel](https://github.com/otassel).
+
+## License
+
+Distributed under [MIT License](./LICENSE).
