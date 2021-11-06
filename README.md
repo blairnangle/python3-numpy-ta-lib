@@ -1,5 +1,9 @@
 # python3-numpy-ta-lib
 
+[![Build](https://github.com/blairnangle/python3-numpy-ta-lib/actions/workflows/build.yml/badge.svg)](https://github.com/blairnangle/python3-numpy-ta-lib/actions/workflows/build.yml)
+
+[![Build, tag, push](https://github.com/blairnangle/python3-numpy-ta-lib/actions/workflows/build-tag-push.yml/badge.svg)](https://github.com/blairnangle/python3-numpy-ta-lib/actions/workflows/build-tag-push.yml)
+
 Docker image with [NumPy](https://pypi.org/project/numpy/) and [TA-Lib](https://pypi.org/project/TA-Lib/) installed.
 Built and uploaded to Docker Hub using GitHub Actions.
 
